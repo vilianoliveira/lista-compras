@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de compras.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="impressora.css" media="print">
+</head>
+<body>
+    <header><h1>Lista de compras!</h1></header>
+    <main>
+        <article>
+            <label for="nom">Produto:</label>
+            <input type="text" name="nom" id="nom"><br>
+            <label for="quant">Quantidade:</label>
+            <input type="number" name="quant" id="quant"><br>
+            <input type="button" value="Adicionar" onclick="adicionar()">
+        </article>
+
+        <div id="res">
+            <p>Lista</p>
+        </div>
+
+       <br><button id="imp">Imprimir</button><br>
+
+       <a href="index.html"><img src="pngtree-return-icon-png-image_4722210.jpg" alt="reset"></a>
+
+    </main>
+    <script src="JavaScript.js"></script>
+</body>
+</html>

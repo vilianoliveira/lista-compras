@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+h1{
+    color: black;
+    text-shadow: none;
+}
+article{
+    display: none;
+}
+button{
+    display: none;
+}
+a{
+    display: none;
+}

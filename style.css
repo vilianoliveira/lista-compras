@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+*{
+    text-align: center;
+}
+
+body{
+    background-image: url(mercado.jpg);
+    background-size: cover;   
+}
+h1{
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+
+article{
+    background-color: white;
+    border: 2px solid black;
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    line-height: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.377);
+}
+#res{
+    background-color: white;
+    border: 2px solid black; 
+    max-width: 700px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.377);
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+img{
+    max-width: 30px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+@media screen and (min-width: 992px){
+    body{
+        background-image: url(mercado.jpg);
+        background-position: center;
+    }
+}
